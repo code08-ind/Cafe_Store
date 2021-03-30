@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #8a2387; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f27121,
+    #e94057,
+    #8a2387
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f27121,
+    #e94057,
+    #8a2387
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: ubuntu;
+}
+
+h1 {
+  color: #fff;
+  font-size: 64px;
+  letter-spacing: 2px;
+  margin-top: 80px;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+}
+
+.content {
+  background: #fff;
+  max-width: 960px;
+  margin: 30px auto;
+  padding: 20px 30px;
+  border-radius: 10px 120px 10px 10px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+h6#copy {
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 20px;
+  width: 97%;
+  background: #f6f6f6;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #555;
+  position: relative;
+  border-bottom: 1px solid #e6e6e6;
+  height: 46px;
+  font-family: 'Playfair Display', serif;
+}
+
+li:nth-child(even) {
+  padding: 20px;
+  background: #f2f2f2;
+}
+
+li:first-child {
+  border-top-right-radius: 20px;
+}
+
+li span {
+  display: block;
+}
+
+li span:nth-child(2) {
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 6px;
+  color: #999;
+  font-family: 'Rubik', sans-serif;
+}
+
+li div {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  background: rgba(255, 255, 255, 0.6);
+  width: 40px;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form input {
+  float: left;
+  width: 38%;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid #eee;
+  margin: 0 1%;
+  padding: 10px;
+  display: block;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+}
+
+::placeholder {
+  font-family: 'Montserrat', sans-serif;
+}
+
+form input:focus {
+  outline: none;
+  border-bottom: 3px solid #88236f;
+  padding-bottom: 8px;
+  transition: all ease 0.2s;
+}
+
+form:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+button {
+  border: 0;
+  outline: none;
+  box-shadow: 0px 0px 5px 1px #000;
+  margin-bottom: 8px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 13px;
+  width: 14%;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: ubuntu;
+  letter-spacing: 1px;
+  color: #999;
+  transition: all 0.3s ease-in-out;
+  font-family: 'Cinzel', serif;
+}
+
+button:hover,
+button:active {
+  box-shadow: 0px 0px 5px 1px grey;
+}
